@@ -1,5 +1,13 @@
 local plugins = {
   {
+    "mfussenegger/nvim-dap" 
+  },
+  {
+    "github/copilot.vim",
+    cmd = "Copilot",
+    event = "InsertEnter",
+  },
+  {
     "rcarriga/nvim-dap-ui",
     dependencies = "mfussenegger/nvim-dap",
     config = function()
